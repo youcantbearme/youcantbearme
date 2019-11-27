@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>WebSite Development</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="website.js" rel="text/javascript"></script>
+</head>
+<body onload="typeWriter()">
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+<div class="content" id="home">
+	
+	<div class="navbar">
+		<div class="logo">
+			<a href="#"><p id="rahul"></p></a>
+		</div>
+		<div class="navbarItems">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="navbar2">
+		<div class="logo">
+			<a href="#"><p id="rahul2"></p></a>
+		</div>
+		<span style="font-size: 30px;cursor: pointer;color: white;margin-top: -30px;" onclick="openNav()">&#9776;</span>
+	</div>
+	<video autoplay muted loop id="myVideo">
+		<source src="media/home.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+	</video>
+
+	<div class="serviceTitle" id="serviceTitle">
+		<h1 class="title">The Globe Is Going Digital.</h1>
+		<p>A Full-Stack Developer with 6 years of expereince in coding and database handling.<br>I Dont just think out of the box, but expel out of it.<br> Here is the one stop solution for all your digital problems from website development to social media handling.</p>
+		<div class="button"><a href="services.html">Services</a></div>
+	</div>
+
+	<div class="services" id="services">
+		<h1 class="title">Major Services</h1>
+		<p></p>
+		<div class="servicesIndividual">
+			<div class="servicesIndividualService">
+				<img src="media/images/webdes.jpg" alt="service_image">
+				<h3 class="sub_title">Web Designing</h3>
+				<p>Tell your ideas and see them converted into a live demonstration within no time.</p>
+			</div>
+			<div class="servicesIndividualService">
+				<img src="media/images/webdev.jpg" alt="service_image">
+				<h3 class="sub_title">Web Development</h3>
+				<p>Experience the power of the internet and reap the benefits for your businesses.</p>
+			</div>
+			<div class="servicesIndividualService">
+				<img src="media/images/app.jpg" alt="service_image">
+				<h3 class="sub_title">App Development</h3>
+				<p>Mobile apps are the next compact version of the internet, they are fast, easy and available anytime.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<a href="#">Too buzy to think of something for footer, because I was coding! </a>
+	</div>
+
+	<audio controls autoplay>
+		<source src="media/tunnel.mp3" type="audio/mp3"/>
+	</audio>
+	
+	<div class="arrow">
+		<a href="#home"><img src="media/images/arrow.png" alt="up_arrow"></a>
+	</div>
+</div>
+</body>
+</html>
