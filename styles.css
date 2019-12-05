@@ -264,6 +264,7 @@ audio{
     border-radius: 18px;
 	display: block;
 	z-index: 8;
+	display: none;
 }
 video#myVideo {
     width: 100%;
